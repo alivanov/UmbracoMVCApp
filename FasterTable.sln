@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FasterTable", "FasterTable\FasterTable.csproj", "{24C18A8C-C05B-4139-B550-56D08EE63A6B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FasterTable.Tests", "FasterTable.Tests\FasterTable.Tests.csproj", "{F1AB6811-760B-4D52-9FC0-F180317DECE2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{24C18A8C-C05B-4139-B550-56D08EE63A6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24C18A8C-C05B-4139-B550-56D08EE63A6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24C18A8C-C05B-4139-B550-56D08EE63A6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24C18A8C-C05B-4139-B550-56D08EE63A6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1AB6811-760B-4D52-9FC0-F180317DECE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1AB6811-760B-4D52-9FC0-F180317DECE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1AB6811-760B-4D52-9FC0-F180317DECE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1AB6811-760B-4D52-9FC0-F180317DECE2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
