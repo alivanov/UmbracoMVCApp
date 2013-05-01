@@ -2,29 +2,29 @@
 <plugins>
   <baseType type="umbraco.interfaces.IApplicationStartupHandler" resolutionType="FindAllTypes">
     <add type="UmbracoExamine.UmbracoEventManager, UmbracoExamine, Version=0.1.42.2941, Culture=neutral, PublicKeyToken=null" />
-    <add type="umbraco.editorControls.PickerRelations.PickerRelationsEventHandler, umbraco.editorControls, Version=1.0.4863.23145, Culture=neutral, PublicKeyToken=null" />
-    <add type="Umbraco.Web.Strategies.DataTypes.LegacyUploadFieldWorkaround, umbraco, Version=1.0.4863.23141, Culture=neutral, PublicKeyToken=null" />
-    <add type="Umbraco.Web.Strategies.Migrations.PublishAfterUpgradeToVersionSixth, umbraco, Version=1.0.4863.23141, Culture=neutral, PublicKeyToken=null" />
-    <add type="Umbraco.Web.Strategies.Publishing.UpdateCacheAfterPublish, umbraco, Version=1.0.4863.23141, Culture=neutral, PublicKeyToken=null" />
-    <add type="Umbraco.Web.Strategies.Publishing.UpdateCacheAfterUnPublish, umbraco, Version=1.0.4863.23141, Culture=neutral, PublicKeyToken=null" />
-    <add type="Umbraco.Web.Strategies.Migrations.EnsureAppsTreesUpdatedOnUpgrade, umbraco, Version=1.0.4863.23141, Culture=neutral, PublicKeyToken=null" />
-    <add type="umbraco.LibraryCacheRefresher, umbraco, Version=1.0.4863.23141, Culture=neutral, PublicKeyToken=null" />
-    <add type="umbraco.presentation.nodeFactory.UmbracoSiteMapProviderAccessUpdate, umbraco, Version=1.0.4863.23141, Culture=neutral, PublicKeyToken=null" />
-    <add type="umbraco.presentation.EnsureSystemPathsApplicationStartupHandler, umbraco, Version=1.0.4863.23141, Culture=neutral, PublicKeyToken=null" />
-    <add type="umbraco.presentation.umbraco.Search.ExamineEvents, umbraco, Version=1.0.4863.23141, Culture=neutral, PublicKeyToken=null" />
-    <add type="umbraco.BusinessLogic.ApplicationRegistrar, businesslogic, Version=1.0.4863.23140, Culture=neutral, PublicKeyToken=null" />
-    <add type="umbraco.BusinessLogic.ApplicationTreeRegistrar, businesslogic, Version=1.0.4863.23140, Culture=neutral, PublicKeyToken=null" />
+    <add type="umbraco.editorControls.PickerRelations.PickerRelationsEventHandler, umbraco.editorControls, Version=1.0.4869.18016, Culture=neutral, PublicKeyToken=null" />
+    <add type="Umbraco.Web.Strategies.DataTypes.LegacyUploadFieldWorkaround, umbraco, Version=1.0.4869.18015, Culture=neutral, PublicKeyToken=null" />
+    <add type="Umbraco.Web.Strategies.Migrations.PublishAfterUpgradeToVersionSixth, umbraco, Version=1.0.4869.18015, Culture=neutral, PublicKeyToken=null" />
+    <add type="Umbraco.Web.Strategies.Publishing.UpdateCacheAfterPublish, umbraco, Version=1.0.4869.18015, Culture=neutral, PublicKeyToken=null" />
+    <add type="Umbraco.Web.Strategies.Publishing.UpdateCacheAfterUnPublish, umbraco, Version=1.0.4869.18015, Culture=neutral, PublicKeyToken=null" />
+    <add type="Umbraco.Web.Strategies.Migrations.EnsureAppsTreesUpdatedOnUpgrade, umbraco, Version=1.0.4869.18015, Culture=neutral, PublicKeyToken=null" />
+    <add type="umbraco.LibraryCacheRefresher, umbraco, Version=1.0.4869.18015, Culture=neutral, PublicKeyToken=null" />
+    <add type="umbraco.presentation.nodeFactory.UmbracoSiteMapProviderAccessUpdate, umbraco, Version=1.0.4869.18015, Culture=neutral, PublicKeyToken=null" />
+    <add type="umbraco.presentation.EnsureSystemPathsApplicationStartupHandler, umbraco, Version=1.0.4869.18015, Culture=neutral, PublicKeyToken=null" />
+    <add type="umbraco.presentation.umbraco.Search.ExamineEvents, umbraco, Version=1.0.4869.18015, Culture=neutral, PublicKeyToken=null" />
+    <add type="umbraco.BusinessLogic.ApplicationRegistrar, businesslogic, Version=1.0.4869.18013, Culture=neutral, PublicKeyToken=null" />
+    <add type="umbraco.BusinessLogic.ApplicationTreeRegistrar, businesslogic, Version=1.0.4869.18013, Culture=neutral, PublicKeyToken=null" />
   </baseType>
   <baseType type="Umbraco.Core.Models.IMacroPropertyType" resolutionType="FindAllTypes" />
   <baseType type="Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter" resolutionType="FindAllTypes" />
   <baseType type="Umbraco.Web.Mvc.SurfaceController" resolutionType="FindAllTypes" />
   <baseType type="Umbraco.Core.Media.IThumbnailProvider" resolutionType="FindAllTypes">
-    <add type="Umbraco.Web.Media.ThumbnailProviders.MediaTypeIconThumbnailProvider, umbraco, Version=1.0.4863.23141, Culture=neutral, PublicKeyToken=null" />
-    <add type="Umbraco.Web.Media.ThumbnailProviders.FileExtensionIconThumbnailProvider, umbraco, Version=1.0.4863.23141, Culture=neutral, PublicKeyToken=null" />
-    <add type="Umbraco.Web.Media.ThumbnailProviders.ImageThumbnailProvider, umbraco, Version=1.0.4863.23141, Culture=neutral, PublicKeyToken=null" />
+    <add type="Umbraco.Web.Media.ThumbnailProviders.MediaTypeIconThumbnailProvider, umbraco, Version=1.0.4869.18015, Culture=neutral, PublicKeyToken=null" />
+    <add type="Umbraco.Web.Media.ThumbnailProviders.FileExtensionIconThumbnailProvider, umbraco, Version=1.0.4869.18015, Culture=neutral, PublicKeyToken=null" />
+    <add type="Umbraco.Web.Media.ThumbnailProviders.ImageThumbnailProvider, umbraco, Version=1.0.4869.18015, Culture=neutral, PublicKeyToken=null" />
   </baseType>
   <baseType type="Umbraco.Core.Media.IImageUrlProvider" resolutionType="FindAllTypes">
-    <add type="Umbraco.Web.Media.ImageUrlProviders.ImageUrlProvider, umbraco, Version=1.0.4863.23141, Culture=neutral, PublicKeyToken=null" />
+    <add type="Umbraco.Web.Media.ImageUrlProviders.ImageUrlProvider, umbraco, Version=1.0.4869.18015, Culture=neutral, PublicKeyToken=null" />
   </baseType>
   <baseType type="umbraco.interfaces.IApplication" resolutionType="FindTypesWithAttribute">
     <add type="umbraco.businesslogic.ContentApplicationDefinition, businesslogic, Version=1.0.4863.23140, Culture=neutral, PublicKeyToken=null" />
